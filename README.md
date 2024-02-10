@@ -5,7 +5,7 @@
 
 ### 1. 安装依赖  `pip install -r requirements.txt`
 
-### 2. 运行 `main.py` 即可
+### 2.  `python main.py` 运行即可
 
 ## 使用方式
 
