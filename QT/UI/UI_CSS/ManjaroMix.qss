@@ -1,0 +1,104 @@
+/* 按钮默认状态样式 */
+QPushButton {
+    color: rgb(17, 17, 17);
+    border-width: 1px;
+    border-radius: 6px;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 4px;
+    background-color: qlineargradient(spread: pad, x1: 0.5, y1: 1, x2: 0.5, y2: 0, stop: 0 rgba(220, 220, 220, 255), stop: 1 rgba(255, 255, 255, 255));
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* 鼠标悬停状态样式 */
+QPushButton:hover {
+    color: rgb(17, 17, 17);
+    border-width: 1px;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 150, 60);
+    padding: 2px;
+    background-color: qlineargradient(spread: pad, x1: 0.5, y1: 1, x2: 0.5, y2: 0, stop: 0 rgba(255, 186, 105, 255), stop: 1 rgba(255, 235, 161, 255));
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* 默认按钮样式 */
+QPushButton:default {
+    color: rgb(17, 17, 17);
+    border-width: 1px;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 150, 60);
+    padding: 2px;
+    background-color: qlineargradient(spread: pad, x1: 0.5, y1: 0, x2: 0.5, y2: 1, stop: 0 rgba(255, 186, 105, 255), stop: 1 rgba(255, 235, 161, 255));
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) inset;
+}
+
+/* 按钮被按下状态样式 */
+QPushButton:pressed {
+    color: rgb(17, 17, 17);
+    border-width: 1px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 150, 60, 200);
+    padding: 2px;
+    background-color: qlineargradient(spread: pad, x1: 0.5, y1: 0, x2: 0.5, y2: 1, stop: 0 rgba(255, 235, 161, 255), stop: 1 rgba(255, 186, 105, 255));
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+/* 按钮禁用状态样式 */
+QPushButton:disabled {
+    color: rgb(174, 167, 159);
+    border-width: 1px;
+    border-radius: 6px;
+    background-color: qlineargradient(spread: pad, x1: 0.5, y1: 1, x2: 0.5, y2: 0, stop: 0 rgba(200, 200, 200, 255), stop: 1 rgba(230, 230, 230, 255));
+    box-shadow: none;
+}
+
+QMenuBar {
+	color:rgb(223,219,210);
+	background-color:rgb(50,50,50);
+}
+
+QMenu::item {
+    color: rgb(170, 170, 170);
+    padding: 8px;
+    margin: 2px;
+}
+
+QMenuBar::item {
+    padding: 10px 20px;
+    background-color:rgb(50,50,50);
+    color:rgb(223,219,210);
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+QMenuBar::item:selected {
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    border-top: 2px solid rgb(70, 70, 70);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 2px solid #FF8800;
+    background-color: rgb(50, 50, 50);
+}
+
+QMenu {
+    color: rgb(170, 170, 170);
+    background-color: rgb(50, 50, 50);
+}
+
+QMenu::item:selected {
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 80, 80);
+    padding: 6px;
+    margin: 2px;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+QMenu::item:hover,
+QMenu::item:selected {
+    background-color: #444444;
+    border-left: 4px solid #FF8800;
+    /* border-right: 4px solid #FF8800; */
+}
+
+
