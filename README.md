@@ -9,4 +9,4 @@
 
 ## 使用方式
 
-<font size=4>见[软件说明](http://t.csdnimg.cn/9Y2bd)
+https://yejiongkai.github.io/categories/%E5%9B%BE%E5%83%8F%E7%AE%97%E6%B3%95%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6/
